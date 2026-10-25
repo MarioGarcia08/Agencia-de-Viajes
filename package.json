@@ -1,0 +1,24 @@
+{
+  "name": "agenciaviajesnodemario",
+  "version": "1.0.0",
+  "description": "Primer proyecto con Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "db:seed": "node scripts/seed.js"
+  },
+  "type": "module",
+  "author": "Mario",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3",
+    "pug": "^3.0.3",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
